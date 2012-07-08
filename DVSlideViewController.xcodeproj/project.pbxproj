@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3CC29A715AA2BDF006F1352 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CC29A615AA2BDF006F1352 /* UIKit.framework */; };
+		E3CC29A915AA2BDF006F1352 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CC29A815AA2BDF006F1352 /* Foundation.framework */; };
+		E3CC29AB15AA2BDF006F1352 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CC29AA15AA2BDF006F1352 /* CoreGraphics.framework */; };
+		E3CC29B115AA2BDF006F1352 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3CC29AF15AA2BDF006F1352 /* InfoPlist.strings */; };
+		E3CC29B315AA2BDF006F1352 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC29B215AA2BDF006F1352 /* main.m */; };
+		E3CC29B715AA2BDF006F1352 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC29B615AA2BDF006F1352 /* AppDelegate.m */; };
+		E3CC29C815AA2E1E006F1352 /* DVSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC29C715AA2C38006F1352 /* DVSlideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3CC29A215AA2BDF006F1352 /* DVSlideViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVSlideViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CC29A615AA2BDF006F1352 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3CC29A815AA2BDF006F1352 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3CC29AA15AA2BDF006F1352 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3CC29AE15AA2BDF006F1352 /* DVSlideViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DVSlideViewController-Info.plist"; sourceTree = "<group>"; };
+		E3CC29B015AA2BDF006F1352 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3CC29B215AA2BDF006F1352 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3CC29B415AA2BDF006F1352 /* DVSlideViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DVSlideViewController-Prefix.pch"; sourceTree = "<group>"; };
+		E3CC29B515AA2BDF006F1352 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3CC29B615AA2BDF006F1352 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3CC29C615AA2C38006F1352 /* DVSlideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVSlideViewController.h; sourceTree = "<group>"; };
+		E3CC29C715AA2C38006F1352 /* DVSlideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVSlideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3CC299F15AA2BDF006F1352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CC29A715AA2BDF006F1352 /* UIKit.framework in Frameworks */,
+				E3CC29A915AA2BDF006F1352 /* Foundation.framework in Frameworks */,
+				E3CC29AB15AA2BDF006F1352 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3CC299715AA2BDF006F1352 = {
+			isa = PBXGroup;
+			children = (
+				E3CC29AC15AA2BDF006F1352 /* DVSlideViewController */,
+				E3CC29A515AA2BDF006F1352 /* Frameworks */,
+				E3CC29A315AA2BDF006F1352 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3CC29A315AA2BDF006F1352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3CC29A215AA2BDF006F1352 /* DVSlideViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3CC29A515AA2BDF006F1352 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3CC29A615AA2BDF006F1352 /* UIKit.framework */,
+				E3CC29A815AA2BDF006F1352 /* Foundation.framework */,
+				E3CC29AA15AA2BDF006F1352 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3CC29AC15AA2BDF006F1352 /* DVSlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3CC29B515AA2BDF006F1352 /* AppDelegate.h */,
+				E3CC29B615AA2BDF006F1352 /* AppDelegate.m */,
+				E3CC29C615AA2C38006F1352 /* DVSlideViewController.h */,
+				E3CC29C715AA2C38006F1352 /* DVSlideViewController.m */,
+				E3CC29AD15AA2BDF006F1352 /* Supporting Files */,
+			);
+			path = DVSlideViewController;
+			sourceTree = "<group>";
+		};
+		E3CC29AD15AA2BDF006F1352 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3CC29AE15AA2BDF006F1352 /* DVSlideViewController-Info.plist */,
+				E3CC29AF15AA2BDF006F1352 /* InfoPlist.strings */,
+				E3CC29B215AA2BDF006F1352 /* main.m */,
+				E3CC29B415AA2BDF006F1352 /* DVSlideViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3CC29A115AA2BDF006F1352 /* DVSlideViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CC29C315AA2BDF006F1352 /* Build configuration list for PBXNativeTarget "DVSlideViewController" */;
+			buildPhases = (
+				E3CC299E15AA2BDF006F1352 /* Sources */,
+				E3CC299F15AA2BDF006F1352 /* Frameworks */,
+				E3CC29A015AA2BDF006F1352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVSlideViewController;
+			productName = DVSlideViewController;
+			productReference = E3CC29A215AA2BDF006F1352 /* DVSlideViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3CC299915AA2BDF006F1352 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E3CC299C15AA2BDF006F1352 /* Build configuration list for PBXProject "DVSlideViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3CC299715AA2BDF006F1352;
+			productRefGroup = E3CC29A315AA2BDF006F1352 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3CC29A115AA2BDF006F1352 /* DVSlideViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3CC29A015AA2BDF006F1352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CC29B115AA2BDF006F1352 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3CC299E15AA2BDF006F1352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CC29B315AA2BDF006F1352 /* main.m in Sources */,
+				E3CC29B715AA2BDF006F1352 /* AppDelegate.m in Sources */,
+				E3CC29C815AA2E1E006F1352 /* DVSlideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3CC29AF15AA2BDF006F1352 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3CC29B015AA2BDF006F1352 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3CC29C115AA2BDF006F1352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3CC29C215AA2BDF006F1352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3CC29C415AA2BDF006F1352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DVSlideViewController/DVSlideViewController-Prefix.pch";
+				INFOPLIST_FILE = "DVSlideViewController/DVSlideViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E3CC29C515AA2BDF006F1352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DVSlideViewController/DVSlideViewController-Prefix.pch";
+				INFOPLIST_FILE = "DVSlideViewController/DVSlideViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3CC299C15AA2BDF006F1352 /* Build configuration list for PBXProject "DVSlideViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CC29C115AA2BDF006F1352 /* Debug */,
+				E3CC29C215AA2BDF006F1352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CC29C315AA2BDF006F1352 /* Build configuration list for PBXNativeTarget "DVSlideViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CC29C415AA2BDF006F1352 /* Debug */,
+				E3CC29C515AA2BDF006F1352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3CC299915AA2BDF006F1352 /* Project object */;
+}
