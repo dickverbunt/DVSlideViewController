@@ -24,7 +24,7 @@ The files you'll need to copy into your own project are in the 'DVSlideViewContr
 You also need to include QuartzCore to your project.
 The remaining files in the Xcode project are included for demonstration purposes only.
 
-## Setting up DVSlideViewController
+## Working with DVSlideViewController
 
 ```objective-c
 //DVSlideViewController
