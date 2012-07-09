@@ -18,13 +18,22 @@ Essentially, DVSlideViewContoller is a UIViewController subclass.
 
 The files you'll need to copy into your own project are in the 'DVSlideViewController' group in the Xcode project.
 
-- DVSlideViewController.h and .m
-- grayBackground.png
+1. Add `QuartzCore.framework` to your target
+2. Add `DVSlideViewController.h`, `DVSlideViewController.m` and `grayBackground.png` to your project
 
 You also need to include QuartzCore to your project.
 The remaining files in the Xcode project are included for demonstration purposes only.
 
+## Setting up DVSlideViewController
 
+```objective-c
+//DVSlideViewController
+- (void)setViewController:(NSArray *)_viewControllers;
+- (void)nextViewController;
+- (void)prevViewController;
+```
+
+If you add `DVSlideViewController.h` to your childViewController `self.slideViewController` will become available.
 
 
 ## Downloading the code
