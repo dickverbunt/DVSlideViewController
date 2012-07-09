@@ -46,6 +46,7 @@
 {
 	UIView *background = [[UIView alloc] initWithFrame:self.view.bounds];
 	[background setAutoresizingMask:(UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth)];
+	[background setBackgroundColor:[UIColor colorWithWhite:0.5 alpha:1.0]];
 	[self.view addSubview:background];
 	[background release];
 	

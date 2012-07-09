@@ -14,6 +14,7 @@
 		E3CC29B315AA2BDF006F1352 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC29B215AA2BDF006F1352 /* main.m */; };
 		E3CC29B715AA2BDF006F1352 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC29B615AA2BDF006F1352 /* AppDelegate.m */; };
 		E3CC29C815AA2E1E006F1352 /* DVSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC29C715AA2C38006F1352 /* DVSlideViewController.m */; };
+		E3CC29CE15AB7E4A006F1352 /* grayBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CC29CD15AB7E4A006F1352 /* grayBackground.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		E3CC29B615AA2BDF006F1352 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E3CC29C615AA2C38006F1352 /* DVSlideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVSlideViewController.h; sourceTree = "<group>"; };
 		E3CC29C715AA2C38006F1352 /* DVSlideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVSlideViewController.m; sourceTree = "<group>"; };
+		E3CC29CD15AB7E4A006F1352 /* grayBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayBackground.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		E3CC29AC15AA2BDF006F1352 /* DVSlideViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E3CC29CD15AB7E4A006F1352 /* grayBackground.png */,
 				E3CC29B515AA2BDF006F1352 /* AppDelegate.h */,
 				E3CC29B615AA2BDF006F1352 /* AppDelegate.m */,
 				E3CC29C615AA2C38006F1352 /* DVSlideViewController.h */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3CC29B115AA2BDF006F1352 /* InfoPlist.strings in Resources */,
+				E3CC29CE15AB7E4A006F1352 /* grayBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +266,7 @@
 				E3CC29C515AA2BDF006F1352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
