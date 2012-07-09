@@ -6,6 +6,9 @@ by Dick Verbunt
 
 DVSlideViewController is an view controller, witch allows you to slide view controllers in- and offscreen with a swipe of your finger.
 
+![](https://github.com/dickverbunt/DVSlideViewController/raw/master/Screenshots/DVSlideViewController_Screenshot1.png)
+![](https://github.com/dickverbunt/DVSlideViewController/raw/master/Screenshots/DVSlideViewController_Screenshot2.png)
+
 
 ## Getting started
 
