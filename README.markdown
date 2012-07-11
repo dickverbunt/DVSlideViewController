@@ -8,7 +8,7 @@ DVSlideViewController is an view controller, witch allows you to slide view cont
 
 ![](https://github.com/dickverbunt/DVSlideViewController/raw/master/Screenshots/DVSlideViewController_Screenshot1.png)
 ![](https://github.com/dickverbunt/DVSlideViewController/raw/master/Screenshots/DVSlideViewController_Screenshot2.png)
-
+[watch a sample of DVSlideViewController on YouTube](http://www.youtube.com/watch?v=p-HCUMs3fTA)
 
 ## Getting started
 
@@ -44,7 +44,7 @@ You can [get DVSlideViewController on github](http://github.com/dickverbunt/DVSl
 
 ## License
 
-DVSlideViewController is released under the MIT-License. So free of charge.
+DVSlideViewController is released under the BSD-License. So free of charge.
 
 
 ## Support, bugs and feature requests
